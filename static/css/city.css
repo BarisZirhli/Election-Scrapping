@@ -1,0 +1,33 @@
+html {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo", sans-serif;
+  }
+  
+  body {
+    background-color: rgb(132, 149, 153);
+  }
+  .city{
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+  }
+
+#citySubmit{
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+#cityName{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+#citySubmit:hover{
+  background-color: #0de017;
+}
+

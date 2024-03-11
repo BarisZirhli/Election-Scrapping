@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2017 YES/NO ELECTION DISTRICT RESULT</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/city.css') }}"
+    />
+  </head>
+  <body>
+    <h1><center>2017 YES/NO ELECTION DISTRICT RESULT</center></h1>
+    <div id="turkey"></div>
+    <div class="city">
+      <form action="/" method="post">
+        <label for="cityName">City Name: </label>
+        <span><input type="text" name="cityName" id="cityName"/></span>
+        <button type="submit" id="citySubmit" value="citySubmit">Submit</button>
+      </form>
+    </div>
+    <script>
+      var data = [
+        {
+          x: {{ cityTurkey|tojson }},
+          y: {{ yesVoteCity|tojson }},
+          type: "bar",
+          name: "Evet",
+          marker: { color: "green" }
+
+        },{
+          x: {{ cityTurkey|tojson }},
+          y: {{ noVoteCity|tojson }},
+          type: "bar",
+          name: "Hayır",
+          marker: { color: "red" }
+        }
+      ];
+
+      var layout = {
+        title: "2017 YES/NO ELECTION DISTRICT RESULT",
+        xaxis: { title: "District Name" },
+        yaxis: { title: "Vote" }
+      };
+
+      Plotly.newPlot("turkey", data, layout);
+    </script>
+  </body>
+</html>

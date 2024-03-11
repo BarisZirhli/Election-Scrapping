@@ -1,0 +1,53 @@
+[
+  {
+    "İlçe Kodu": "1767",
+    "İlçe Adı": "AYDINTEPE",
+    "Sandık Sayısı": "31",
+    "Kayıtlı Seçmen Sayısı": "5.142",
+    "Oy Kullanan Seçmen Sayısı": "3.945",
+    "Katılım Oranı": "%76,72",
+    "Geçerli Oy Sayısı": "3.872",
+    "Geçerli Oy Oranı": "%98,15",
+    "Geçersiz Oy Sayısı": "73",
+    "Geçersiz Oy Oranı": "%1,85",
+    "Evet Sayısı": "3.170",
+    "Evet Oranı": "%81,87",
+    "Hayır Sayısı": "702",
+    "Hayır Oranı": "%18,13",
+    "Mahaller Bazlı Veri İndir": " Excel İndir  Json İndir "
+  },
+  {
+    "İlçe Kodu": "1176",
+    "İlçe Adı": "BAYBURT MERKEZ",
+    "Sandık Sayısı": "216",
+    "Kayıtlı Seçmen Sayısı": "45.707",
+    "Oy Kullanan Seçmen Sayısı": "37.754",
+    "Katılım Oranı": "%82,6",
+    "Geçerli Oy Sayısı": "37.163",
+    "Geçerli Oy Oranı": "%98,43",
+    "Geçersiz Oy Sayısı": "591",
+    "Geçersiz Oy Oranı": "%1,57",
+    "Evet Sayısı": "30.033",
+    "Evet Oranı": "%80,81",
+    "Hayır Sayısı": "7.130",
+    "Hayır Oranı": "%19,19",
+    "Mahaller Bazlı Veri İndir": " Excel İndir  Json İndir "
+  },
+  {
+    "İlçe Kodu": "1788",
+    "İlçe Adı": "DEMİRÖZÜ",
+    "Sandık Sayısı": "38",
+    "Kayıtlı Seçmen Sayısı": "6.036",
+    "Oy Kullanan Seçmen Sayısı": "5.073",
+    "Katılım Oranı": "%84,05",
+    "Geçerli Oy Sayısı": "5.025",
+    "Geçerli Oy Oranı": "%99,05",
+    "Geçersiz Oy Sayısı": "48",
+    "Geçersiz Oy Oranı": "%0,95",
+    "Evet Sayısı": "4.426",
+    "Evet Oranı": "%88,08",
+    "Hayır Sayısı": "599",
+    "Hayır Oranı": "%11,92",
+    "Mahaller Bazlı Veri İndir": " Excel İndir  Json İndir "
+  }
+]

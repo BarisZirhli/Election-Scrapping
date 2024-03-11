@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2017 YES/NO ELECTION GENERAL RESULT</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/city.css') }}"
+    />
+  </head>
+  <body>
+    <h1><center>2017 YES/NO ELECTION GENERAL RESULT</center></h1>
+    <div id="turkey"></div>
+
+    <script>
+      var data = [
+        {
+          x: {{ nameCity|tojson }},
+          y: {{ yesVote|tojson }},
+          type: "bar",
+          name: "Evet",
+          marker: { color: "green" }
+
+        },{
+          x: {{ nameCity|tojson }},
+          y: {{ noVote|tojson }},
+          type: "bar",
+          name: "Hayır",
+          marker: { color: "red" }
+        }
+      ];
+
+      var layout = {
+        title: "2017 YES/NO ELECTION GENERAL RESULT",
+        xaxis: { title: "CITY NAME" },
+        yaxis: { title: "VOTE" }
+      };
+
+      Plotly.newPlot("turkey", data, layout);
+    </script>
+  </body>
+</html>
